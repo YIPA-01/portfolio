@@ -7,6 +7,11 @@ import dmcImage3 from '../assets/images/projects/DMC/Screenshot 2025-07-03 at 16
 import dmcImage4 from '../assets/images/projects/DMC/Screenshot 2025-07-03 at 16.53.00.png'
 import dmcImage5 from '../assets/images/projects/DMC/Screenshot 2025-07-03 at 16.53.42.png'
 
+import McrImage from '../assets/images/projects/MCR/Screenshot 2025-11-29 at 19.03.21.png'
+import McrImage1 from '../assets/images/projects/MCR/Screenshot 2025-11-29 at 19.03.40.png'
+import McrImage2 from '../assets/images/projects/MCR/Screenshot 2025-11-29 at 19.03.55.png'
+
+
 import aopImage from '../assets/images/projects/AOP/Screenshot 2025-01-28 at 19.26.25.png'
 import aopImage1 from '../assets/images/projects/AOP/Screenshot 2025-07-03 at 16.35.28.png'
 import aopImage2 from '../assets/images/projects/AOP/Screenshot 2025-07-03 at 16.36.05.png'
@@ -21,6 +26,33 @@ import hlpImage3 from '../assets/images/HLP/Screenshot 2025-07-03 at 16.20.33.pn
 
 // Mock data for development
 export const mockProjects = [
+  {
+    id:6,
+    title:"Mr Crispo Restaurant",
+    description:"A comprehensive Landing Page for a fast food restaurant to manage their customers, orders, and other activities",
+    technologies:["Typescript","Vue.js","Tailwind CSS"],
+    featured:true,
+    images:[
+      {
+        id:1,
+        url:McrImage,
+        alt:" Crispo Landing Page"
+      },
+      {
+        id:2,
+        url:McrImage1,
+        alt:"Cripso Popular Items"
+      },
+      {
+        id:3,
+        url:McrImage2,
+        alt:"Cripso Menu"
+      }
+    ],
+    github_url:"https://github.com/YIPA-01/mr-crispo-restaurant",
+    live_url:"https://yipa-01.github.io/mr-crispo-restaurant/",
+    created_at:"2025-11-29"
+  },
   {
     id:5,
     title:"Dar Imim Hostel",
